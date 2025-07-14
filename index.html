@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mohamed abdelfatah | Full-Stack Developer & Instructor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">FullDev</a>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Mohamed Abdelfatah Full-Stack Developer & Coding Instructor</h1>
+                <p>I build secure, scalable web applications and teach the next generation of developers. With expertise in Django, Python, JavaScript, and modern web technologies, I create platforms that solve real-world problems.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#" class="btn btn-outline">Download CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="250" cy="250" r="200" fill="#4361ee" opacity="0.1"/>
+                    <path d="M250,100 C350,150 350,350 250,400 C150,350 150,150 250,100 Z" fill="#7209b7" opacity="0.1"/>
+                    <path d="M250,100 L400,250 L250,400 L100,250 Z" fill="#4361ee" opacity="0.2"/>
+                    <circle cx="250" cy="250" r="100" fill="#4361ee" opacity="0.3"/>
+                    <rect x="200" y="200" width="100" height="100" fill="#7209b7" opacity="0.4"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h2>About Me</h2>
+                    <p>I'm a passionate full-stack developer with 5+ years of experience building robust web applications. My expertise spans both frontend and backend development, with a focus on creating secure, user-friendly platforms.</p>
+                    <p>For over 3 years, I've taught programming to high school students, helping them develop practical skills through hands-on projects. My teaching philosophy emphasizes real-world application and problem-solving.</p>
+                    <p>I specialize in developing educational platforms with complex features like authentication systems, payment processing, secure content delivery, and admin dashboards. I'm proficient with Django, PostgreSQL, Redis, Celery, and modern deployment strategies.</p>
+                    <a href="#contact" class="btn">Get In Touch</a>
+                </div>
+                <div class="about-image fade-in">
+                    <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="100%" height="100%" fill="#f1f5f9"/>
+                        <circle cx="250" cy="200" r="80" fill="#e9ecef"/>
+                        <rect x="150" y="300" width="200" height="150" rx="20" fill="#e9ecef"/>
+                        <circle cx="200" cy="250" r="20" fill="#4361ee"/>
+                        <circle cx="300" cy="250" r="20" fill="#4361ee"/>
+                        <path d="M200,350 Q250,400 300,350" stroke="#4361ee" stroke-width="10" fill="none"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="fade-in">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript (ES6+)</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">React Basics</span>
+                        <span class="skill-tag">Vue Basics</span>
+                        <span class="skill-tag">SASS/SCSS</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Django REST Framework</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">API Development</span>
+                        <span class="skill-tag">Authentication Systems</span>
+                        <span class="skill-tag">Payment Integration</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3><i class="fas fa-tools"></i> Tools & Deployment</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Celery</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">PythonAnywhere</span>
+                        <span class="skill-tag">Google Cloud Platform</span>
+                        <span class="skill-tag">Oracle Cloud</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Nginx</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Featured Projects</h2>
+                <p>Some of my recent work and personal projects</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="100%" height="100%" fill="#4361ee" opacity="0.1"/>
+                            <rect x="50" y="40" width="300" height="40" rx="5" fill="#4361ee" opacity="0.3"/>
+                            <rect x="50" y="100" width="300" height="30" rx="5" fill="#4361ee" opacity="0.3"/>
+                            <rect x="50" y="140" width="300" height="30" rx="5" fill="#4361ee" opacity="0.3"/>
+                            <rect x="50" y="180" width="140" height="40" rx="5" fill="#7209b7" opacity="0.4"/>
+                        </svg>
+                        <div class="project-tags">
+                            <span class="project-tag">Django</span>
+                            <span class="project-tag">PostgreSQL</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Django REST</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Redis</span>
+                            <span class="project-tag">HLS Streaming</span>
+                            <span class="project-tag">Backblaze</span>
+                            <span class="project-tag">Celery</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>EduLearn Platform</h3>
+                        <p>A comprehensive learning management system with user authentication, course enrollment, progress tracking, and payment integration. Supports video streaming and file uploads.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline">View Demo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                       
+    </section>
+
+    <!-- Teaching Experience -->
+    <section id="teaching">
+        <div class="container">
+            <h2 class="fade-in">Teaching Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-year">2021-Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Coding Instructor</h3>
+                        <p>Developed and delivered curriculum for high school students covering web development fundamentals, Python programming, and project-based learning.</p>
+                        <ul>
+                            <li>Created interactive learning materials and coding exercises</li>
+                            <li>Mentored students through capstone projects</li>
+                            <li>Implemented learning management system for tracking progress</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-year">2019-2021</div>
+                    <div class="timeline-content">
+                        <h3>Web Development Instructor</h3>
+                        <p>Taught frontend and backend development to students using HTML, CSS, JavaScript, and Python.</p>
+                        <ul>
+                            <li>Designed project-based curriculum</li>
+                            <li>Created assessment tools and progress tracking</li>
+                            <li>Managed classroom of 20+ students</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-year">2018-2019</div>
+                    <div class="timeline-content">
+                        <h3>Coding Workshop Facilitator</h3>
+                        <p>Conducted weekend and summer coding workshops for high school students.</p>
+                        <ul>
+                            <li>Introduced programming concepts through interactive exercises</li>
+                            <li>Guided students through building simple web applications</li>
+                            <li>Focused on problem-solving and computational thinking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="fade-in">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item fade-in">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p style="font-size: 13px;">mohamedabdelfatah2000max@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Cairo, Egypt</p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <i class="fas fa-file-download"></i>
+                        <div>
+                            <h3>Resume</h3>
+                            <a href="https://drive.google.com/file/d/12p1CM6EkeHvAL9U6OQViB75LuhbM-iiR/view?usp=drive_link" class="btn btn-secondary">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form fade-in">
+                    <div id="success-message" class="form-message success-message">
+                        <i class="fas fa-check-circle"></i> Thank you! Your message has been sent.
+                    </div>
+                    <div id="error-message" class="form-message error-message">
+                        <i class="fas fa-exclamation-circle"></i> There was a problem sending your message. Please try again.
+                    </div>
+                    
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn" id="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <a href="#" class="footer-logo">FullDev</a>
+                    <p>Full-Stack Developer & Coding Instructor</p>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://wa.me/201115790643"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Mohamed Abdelfatah. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
