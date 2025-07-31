@@ -54,10 +54,7 @@ fadeElements.forEach(element => {
     observer.observe(element);
 });
 
-document.querySelector('.btn-secondary').addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('CV download would start here. In a real implementation, this would download a PDF file.');
-});
+
 
 (function() {
     emailjs.init("K6liyZb4xR7YzFa6q");
